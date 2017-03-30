@@ -6,6 +6,8 @@
         "noImplicitAny": true,
         "experimentalDecorators": true,
         "sourceMap": false,
+        "inlineSourceMap": true,
+        "declaration": true,
         "sourceRoot": "lib",
         "outDir": "dist"
     },

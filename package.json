@@ -1,6 +1,6 @@
 {
   "name": "haversine-position",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert GPS coordinates into local coordinate system relative to the origin with output of [x, y] in meter, bearing(degree) and distance(m)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

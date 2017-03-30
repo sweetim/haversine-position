@@ -2,14 +2,36 @@
   "name": "haversine-position",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test:cov": "nyc mocha",
+    "cov": "nyc mocha -R min",
+    "tsc": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "haversine",
+    "gps",
+    "distance",
+    "geolocation",
+    "coordinates"
+  ],
+  "author": "Tim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/zmpdev/kaibo_cloud_integration"
+  },
   "dependencies": {
     "wgs84": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
   }
 }

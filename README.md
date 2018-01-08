@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/sweetim/haversine-position.svg?branch=master)](https://travis-ci.org/sweetim/haversine-position)
 [![codecov](https://codecov.io/gh/sweetim/haversine-position/branch/master/graph/badge.svg)](https://codecov.io/gh/sweetim/haversine-position)
 [![devDependency Status](https://david-dm.org/sweetim/haversine-position/dev-status.svg)](https://david-dm.org/sweetim/haversine-position#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/github/sweetim/haversine-position/badge.svg)](https://snyk.io/test/github/sweetim/haversine-position)
 
 Convert GPS coordinates into local coordinate system relative to the origin with output of `[x, y]` in `meter`, bearing(`degree`) and distance(`m`)
 
